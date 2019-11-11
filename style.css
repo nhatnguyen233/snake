@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body  {
+    /* background: orangered; */
+}
+#lose {
+    color: rgb(119, 0, 255);
+}
+
+h2 b {
+    color: red;
+    float: left;
+}
+#score {
+    color: red;
+    float: right;
+    margin-top: 6px;
+}
