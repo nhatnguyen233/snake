@@ -73,7 +73,6 @@ var snake = function (game) {
 
     this.moveDown = function () {
         if(this.canMoveDown() && this.direction != 'up') {
-            // this.direction = 'down';
             var head = this.dots[this.dots.length - 1];
             var newDot = new dot(this.game, head.row + 1, head.col);
             this.dots.push(newDot);

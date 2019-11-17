@@ -38,12 +38,9 @@ var game = function () {
         element.innerHTML = self.snake.score;
         self.snake.draw();
         self.snake.gameOver();
-        console.log('draw');
         self.food.draw();
-        console.log('eat');
         
 
-        console.log('HIHI');
         setTimeout(self.loop, self.perFrame);
     }
 
